@@ -14,6 +14,7 @@ deque1.append(1)
 deque1.appendleft(0)
 deque1.extend([2, 3])
 deque1.extendleft([-1])
+deque1.rotate(2)
 
 print deque1
 
