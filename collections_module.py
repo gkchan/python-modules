@@ -1,4 +1,4 @@
-from collections import Counter, deque, OrderedDict
+from collections import Counter, deque, OrderedDict, defaultdict
 
 count = Counter([9, 4, 5, 6, 2, 4, 4, 5, 2])
 print count
@@ -23,5 +23,10 @@ ordered_dict1[5] = 8
 print ordered_dict1
 
 
+dict_list = [(4, 5), (6, 7), (4, 6)]
+def_dic = defaultdict(list)
 
+for key, value in dict_list:
+    def_dic[key].append(value)
+print def_dic
 
