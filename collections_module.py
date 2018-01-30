@@ -7,6 +7,10 @@ print count[4]
 print count.elements()
 print list(count.elements())
 
+
+count2 = Counter(apples=5, oranges=6)
+print count2
+
 deque1 = deque()
 print deque1
 
