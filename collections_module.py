@@ -6,6 +6,7 @@ print count[4]
 
 print count.elements()
 print list(count.elements())
+print count.most_common(3)
 
 
 count2 = Counter(apples=5, oranges=6)
