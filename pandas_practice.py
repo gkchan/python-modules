@@ -8,3 +8,5 @@ print dataframe2
 
 pivot_table = pd.pivot_table(dataframe2, values="Number", columns="Color", index="Animal")
 print pivot_table
+
+print dataframe2["Number"].sum()
