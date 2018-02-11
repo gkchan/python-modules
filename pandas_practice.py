@@ -12,3 +12,9 @@ print pivot_table
 print dataframe2["Number"].sum()
 
 print dataframe2.groupby("Color").groups
+
+colors = dataframe2.groupby("Color").groups.keys()
+print colors
+
+for color in colors:
+    print color
