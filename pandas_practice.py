@@ -18,3 +18,6 @@ print colors
 
 for color in colors:
     print color
+
+
+print dataframe2.groupby("Color").get_group("red")
